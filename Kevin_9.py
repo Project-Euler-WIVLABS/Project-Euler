@@ -12,7 +12,7 @@ def P9():
                         continue
             else:
                 continue
-
+#기존에 작성한 코드, 시간이 무척 오래걸린다.
 
 print(P9())
 
@@ -24,3 +24,5 @@ print(P9())
 #                 if i + j + k == 1000:
 #                     print(i,j,k)
 #                     return (i*j*k)
+
+#다른 코드를 참고해서 다시 짠 코드, 속도가 매우 빠르다.
