@@ -1,3 +1,6 @@
+import time
+start = time.time()
+
 # Q.6
 # 1부터 10까지 자연수를 각각 제곱해 더하면 다음과 같습니다 (제곱의 합).
 
@@ -10,23 +13,17 @@
 # 그러면 1부터 100까지 자연수에 대해 "합의 제곱"과 "제곱의 합"의 차이는 얼마입니까?
 
 # Sol.6
-
-def gkqdmlwprhq(n):
-    a=[]
-    for i in range(1,n+1):
-        if i>n:
-            break
-        else:
-           i**2
-           a.append
-            i=i+1
-
-
-
-def wprhqdmlgkq(n):
-    for i in range(1,n+1):
-
-print(gkqdmlwprhq(100)-wprhqdmlgkq(100))
-
+wprhqdmlgkq = 0
+gkq = 0
+for i in range(1,101):
+    wprhqdmlgkq += i*i
+for j in range(1,101):
+    gkq += j
+gkqdmlwprhq = gkq ** 2
+    
+print(gkqdmlwprhq-wprhqdmlgkq)
 # A.6
-25164150
+#25164150
+
+end = time.time()-start
+print(end)
