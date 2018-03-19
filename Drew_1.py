@@ -16,7 +16,6 @@ for i in range(1000):
 print(sum1)
 
 
-
 # # Sol.1-2
 # sum2 = 0
 # i=0
