@@ -32,6 +32,6 @@ print(sum1)
 # print(sum([i for i in range(1000) if i % 3 == 0 or i % 5 == 0]))
 
 # A.1
-233168
+# 233168
 end = time.time()-start
 print(end)
