@@ -17,4 +17,4 @@ for i in range(len(a)):
         if maxValue < int(c[i])*int(c[i+1])*int(c[i+2])*int(c[i+3])*int(c[i+4])*int(c[i+5])*int(c[i+6])*int(c[i+7])*int(c[i+8])*int(c[i+9])*int(c[i+10])*int(c[i+11])*int(c[i+12]):
             maxValue = int(c[i])*int(c[i+1])*int(c[i+2])*int(c[i+3])*int(c[i+4])*int(c[i+5])*int(c[i+6])*int(c[i+7])*int(c[i+8])*int(c[i+9])*int(c[i+10])*int(c[i+11])*int(c[i+12])
 
-print(maxValue)
+print(maxValue) 
