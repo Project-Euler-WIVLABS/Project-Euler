@@ -1,5 +1,7 @@
 import time
+
 start = time.time()
+
 # Q.6
 # 1부터 10까지 자연수를 각각 제곱해 더하면 다음과 같습니다 (제곱의 합).
 
@@ -19,10 +21,10 @@ for i in range(1,101):
 for j in range(1,101):
     gkq += j
 gkqdmlwprhq = gkq ** 2
-    
+
 print(gkqdmlwprhq-wprhqdmlgkq)
 # A.6
 #25164150
 
-end = time.time()-start
+end = time.time() - start
 print(end)
