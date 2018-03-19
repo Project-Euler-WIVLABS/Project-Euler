@@ -23,6 +23,6 @@ for a in range(0,357):
             print(a*b*(1000-ab))            
 
 # A.9
-
+# 31875000
 end = time.time()-start
 print(end)
