@@ -25,6 +25,6 @@ gkqdmlwprhq = gkq ** 2
 print(gkqdmlwprhq-wprhqdmlgkq)
 # A.6
 #25164150
-
+ 
 end = time.time() - start
 print(end)
