@@ -1,4 +1,5 @@
 import time
+
 start = time.time()
 
 # Q.6
@@ -20,10 +21,10 @@ for i in range(1,101):
 for j in range(1,101):
     gkq += j
 gkqdmlwprhq = gkq ** 2
-    
+
 print(gkqdmlwprhq-wprhqdmlgkq)
 # A.6
 #25164150
-
-end = time.time()-start
+ 
+end = time.time() - start
 print(end)

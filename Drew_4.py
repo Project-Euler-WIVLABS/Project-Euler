@@ -29,3 +29,4 @@ print (num[-1])
 end = time.time()-start
 
 print(end)
+

@@ -1,3 +1,6 @@
+import time
+start = time.time()
+
 # Q.2
 # 피보나치 수열의 각 항은 바로 앞의 항 두 개를 더한 것이 됩니다. 1과 2로 시작하는 경우 이 수열은 아래와 같습니다.
 
@@ -29,17 +32,20 @@ for i in a:
 print(sum)
 
 # Sol.2-2
-a=1
-b=2
-c=0
-sum=0
-while a <= 4000000:
-    if a%2 ==0:
-        sum += a
-    c=a+b
-    a=b
-    b=c
-print(sum)
+# a=1
+# b=2
+# c=0
+# sum=0
+# while a <= 4000000:
+#     if a%2 ==0:
+#         sum += a
+#     c=a+b
+#     a=b
+#     b=c
+# print(sum)
 
 # A.2
-4613732
+# 4613732
+end = time.time()-start
+print(end)
+
