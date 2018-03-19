@@ -1,5 +1,5 @@
 #-*-coding: utf-8 -*-
-sum = 0
+sum =  0
 a = []
 
 #재귀함수
