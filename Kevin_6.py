@@ -5,4 +5,3 @@ for i in range(1,101):
 for j in range(1,101):
     sum2 += j
 print(sum2*sum2- sum) #1~100까지 합의 제곱 - 1~100까지 각 수의 제곱을 더한 수
-
