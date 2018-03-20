@@ -1,7 +1,5 @@
-#-*-coding: utf-8 -*-
 sum =  0
 a = []
-
 #재귀함수
 def PI(i):
     if i == 0 or i == 1:
@@ -15,7 +13,6 @@ for i in range(2,1000):
         a.append(PI(i))
     else:
         break
-
 
 #짝수선별
 for i in a:
