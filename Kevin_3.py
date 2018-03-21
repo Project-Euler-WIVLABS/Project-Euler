@@ -6,5 +6,5 @@ while i<a:
     else:
         i+=2
 print(i)
-
+ 
 
