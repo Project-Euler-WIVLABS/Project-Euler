@@ -1,10 +1,10 @@
 a = 600851475143
-i = 2
+i = 3
 while i<a:
     if a % i == 0:
         a /= i
     else:
-        i+=1
+        i+=2
 print(i)
 
 
