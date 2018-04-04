@@ -19,7 +19,7 @@ for i in range(0,302):
 print(sum)
 time.sleep(0.1)
 #
-# 302
+# 1366
 # print(2**1000)
 end = time.time() - start
 print(end)
