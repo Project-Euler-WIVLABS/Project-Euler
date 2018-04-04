@@ -37,4 +37,4 @@ for i in range(-999,1000):
             b = i
             c = j
 
-print(b,c)
+print(b,c) 
