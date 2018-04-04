@@ -14,7 +14,6 @@ go = itertools.permutations(a)
 print(go)
 print(list(itertools.permutations(a))[999999]) # 1000000번째이므로 999999
 
-
 # A.24
 #2783915460
 end = time.time() - start
