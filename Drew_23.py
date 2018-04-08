@@ -23,7 +23,7 @@ def factorization(number):
 def is_abundant(number):
     proper_divisors = factorization(number)
     return number < sum(proper_divisors)
-
+ 
 # 초과수들
 abundant_numbers = set([number for number in range(12, 28123) if is_abundant(
         number)])
