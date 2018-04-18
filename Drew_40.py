@@ -25,17 +25,17 @@ for i in range(1,10000000):
 
         break
 
-d1= print(t[0:1])
-d10= print(t[9:10])
-d100= print(t[99:100])
-d1000= print(t[999:1000])
-d10000= print(t[9999:10000])
-d100000= print(t[99999:100000])
-d1000000= print(t[999999:1000000])
- 
-c = int(t[0:1]) * int(t[9:10]) * int(t[99:100]) * int(t[999:1000]) * int(t[9999:10000]) * int(t[99999:100000]) * int(t[999999:1000000])
+# d1= print(t[0])
+# d10= print(t[9])
+# d100= print(t[99])
+# d1000= print(t[999])
+# d10000= print(t[9999])
+# d100000= print(t[99999])
+# d1000000= print(t[999999])
+
+c = int(t[0]) * int(t[9]) * int(t[99]) * int(t[999]) * int(t[9999]) * int(t[99999]) * int(t[999999])
 print(c)
-    # print(t[8:9])
+
 # # A.40
 end = time.time() - start
 print(end)
