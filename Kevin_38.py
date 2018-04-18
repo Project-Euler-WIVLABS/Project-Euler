@@ -11,9 +11,9 @@ def sum(t):
 
 def abc():
     max = 1
-    for i in range(1,10000000):
+    for i in range(1,10000):
         t= ''
-        for j in range(1,10):
+        for j in range(1,6):
             t += str(i*j)
             if len(t) == 9:
                 if mul(t) == 362880:
