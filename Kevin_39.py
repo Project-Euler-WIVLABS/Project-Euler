@@ -19,3 +19,4 @@ while p <= 1000:
                 break
     p += 1
 print(a,max)
+ 
