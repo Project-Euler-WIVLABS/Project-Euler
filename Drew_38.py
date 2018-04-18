@@ -27,7 +27,7 @@ for a1 in range(10,10000):
             k = set(a)
             if len(k)==9 and '0' not in k:
                 print(a1,a)
-
+ 
 # A.38
 end = time.time() - start
 print(end)
