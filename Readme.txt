@@ -1,1 +1,1 @@
-"Here is coding of Project-Euler problems"
+"There are code of Project-Euler problems"
