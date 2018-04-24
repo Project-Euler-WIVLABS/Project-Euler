@@ -30,7 +30,7 @@ def prime(n): #소수구하는 알고리즘
 
 b = prime(1000000)
 c = []
-for a in b: #문자열순환시키기
+for a in b: #뽑아놓은 소수들중 골라서 문자열순환시켜서 소수리스트에 있는 지확인
     flag = True
     for i in range(1,len(str(a))):
         if int(str(a)[i:len(str(a))] + str(a)[0:i]) in b:
