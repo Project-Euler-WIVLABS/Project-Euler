@@ -1,4 +1,4 @@
-def prime(n):
+def prime(n): #소수구하는 알고리즘
     primes = [2, 3]
     if n < 2:
         return []
@@ -30,7 +30,7 @@ def prime(n):
 
 b = prime(1000000)
 c = []
-for a in b:
+for a in b: #문자열순환시키기
     flag = True
     for i in range(1,len(str(a))):
         if int(str(a)[i:len(str(a))] + str(a)[0:i]) in b:
