@@ -1,4 +1,3 @@
-a = []
 for i in range(10,100): #분모
     for j in range(10,i): #분자
         if str(i)[1:2] != '0':
