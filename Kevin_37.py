@@ -1,4 +1,4 @@
-def prime(n):
+def prime(n): #소수구하는 알고리즘
     primes = [2, 3]
     if n < 2:
         return []
@@ -32,7 +32,7 @@ def prime(n):
 b = prime(800000)
 a = []
 
-for i in b:
+for i in b: #소수중에서 오른쪽으로 자르면서 만족하는지 보기
     flag = True
     for j in range(len(str(i)), 0, -1):
         if int(str(i)[0:j]) in b:
@@ -44,7 +44,7 @@ for i in b:
         a.append(i)
 
 c = []
-for i in a:
+for i in a: #오른쪽으로 자른 놈들중에서 왼쪽으로 자르면서 만족하는지 보기
     flag = True
     for j in range(0, len(str(i))):
         if int(str(i)[j:len(str(i))]) in b:
