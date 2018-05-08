@@ -27,7 +27,7 @@ for j in a:
                 if result in a:
                     print(result)
                     break
-# def problem044(): 
+# def problem044():
 # 	formula = lambda x : x*(3*x-1)/2
 # 	penta = {int(formula(i)) for i in range(1,3000)}
 #
