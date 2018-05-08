@@ -29,3 +29,4 @@ for i in range(100000,166667):
     if i * 2 in t and i * 3 in t and i * 4 in t and i * 5 in t and i * 6 in t:
         print(i)
         break
+ 
