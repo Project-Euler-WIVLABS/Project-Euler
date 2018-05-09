@@ -38,7 +38,7 @@ for i in range(100000,int(1000000/6)+1):
 #     c=[]
 #     d=[]
 #     e=[]
-#     f=[]
+#     f=[] 
 #     for j2 in range(0,6):
 #         a.append(str(j)[j2])
 #         b.append(str(2*j)[j2])
