@@ -9,7 +9,7 @@ start = time.time()
 # Sol.56
 c=[]
 for a in range(2,100):
-    for b in range(1,100):
+    for b in range(1,100): 
         d = pow(a,b)
         e = list(str(d))
         f=0
