@@ -1,4 +1,4 @@
-import math
+import math 
 def is_pn(n):
     n = abs(n)
     p = (math.sqrt(24*n + 1) + 1) / 6
