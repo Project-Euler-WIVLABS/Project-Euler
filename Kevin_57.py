@@ -6,6 +6,4 @@ for i in range(1000):
     b = a - b
     if len(str(a)) > len(str(b)):
         c += 1
-    print(a,"/",b)
-
 print(c)
