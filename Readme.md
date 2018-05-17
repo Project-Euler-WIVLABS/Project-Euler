@@ -12,4 +12,4 @@ The goal is to decrease time to solve.
 WebSite url 
 ==========
 
-[Project-Euler](Project-Euler.net)
+[Project-Euler](https://projecteuler.net/about)
