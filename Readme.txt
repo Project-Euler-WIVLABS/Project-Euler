@@ -1,1 +1,0 @@
-"There are code of Project-Euler problems"
